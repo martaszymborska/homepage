@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation {
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    margin: auto;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__item {
+    text-transform: uppercase;
+    outline: none;
+    line-height: 2;
+}
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.body {
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.article {
+    color: #c4d4d3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Prata', serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.main {
+    background-color: #022d29;
+}
+
+.article__header {
+    font-family: 'Prata', serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(14, 12, 11);
+}
+
+.main__header {
+    font-family: 'Prata', serif;
+    font-size: 70px;
+    font-weight: normal;
+    color: #c1beb0;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.article__list {
+    color: rgb(14, 12, 11);
+}
+
+.article__listItem {
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5;
+    color: rgb(14, 12, 11);
+}
+
+.newBackground {
+    background-color: darkmagenta;
+}
+
+.main__image {
+    max-width: 250px;
+    padding: 2px;
+    margin-left: 50px;
+}
+
+.article__paragraph {
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5;
+    color: rgb(14, 12, 11);
+}
+
+.article__subheader {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(14, 12, 11);
+}
+
+.button {
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f5f2ef;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 23px;
+    outline: none;
+}
+
+.container {
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(14, 12, 11);
+}
+
+.tableRow:hover {
+    background-color: #dee2e2;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(14, 12, 11);
+}
+
+.tableHeader {
+    background-color: lightslategrey;
+    color: white;
+    font-weight: normal;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5;
+    color: rgb(14, 12, 11);
+}
+
+.hidden {
+    display: none;
+}

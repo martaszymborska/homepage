@@ -2,6 +2,11 @@
 ##Demo
 https://martaszymborska.github.io/homepage/
 ## Opis
-Moja pierwsza przygoda z kodem.  Kilka słów o mnie. Wykształcenie, doświadczenie zawodowe, a także moje pasje.
-Stronę przygotowałam w HTML, ostylowałam w CSS i użyłam podstawowych interakccji w JS.
+My first adventure with coding.  Site was preapred during first weeks of YouCode course. It contains my short description (education, work experience, hobby).
+What I was learning:
+- HTML
+- CSS stuling 
+- BEM convention
+- simple interaction in JS
+It's not perfect yet, but I'm proud :)
 ![screen](images/screen.png)

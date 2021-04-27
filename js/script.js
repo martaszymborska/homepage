@@ -11,7 +11,6 @@ buttonChange.addEventListener("click", () => {
         ();
 })
 
-<test>
 
 buttonHide.addEventListener("click", () => {
     table.classList.toggle("hidden");

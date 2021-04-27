@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Prata&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <navigation class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"> <a class="navigation__link" href="#kontakt">kontakt</a></li>
+            <li class="navigation__item"> <a class="navigation__link" href="#czym-sie-zajmuje">czym się zajmuję</a></li>
+            <li class="navigation__item"> <a class="navigation__link" href="#co-po-pracy">co po pracy</a></li>
+        </ul>
+    </navigation>
+
+    <section class="main">
+        <h1 class="main__header">Hej, <br>jestem Marta!</h1>
+        <img class="main__image" src="https://i.postimg.cc/XJjHCZkc/marta.png" alt="moje foto">
+    </section>
+
+    <p>
+        <button class="button js-buttonChange">Zmień kolor tła</button>
+    </p>
+
+    <section class="article">
+        <h2 class="article__header">O mnie</h2>
+        <p class="article__paragraph">Pracuję w banku jako starsza specjalistka w obszarze Transformacji Digital. Jestem
+            absolwentką
+            Service Design i
+            User Centered Design na SWPS. Chcę się nauczyć kodować. W projektowaniu i kodowaniu zwracam uwagę na
+            <strong>dostępność.</strong>
+        </p>
+    </section>
+<p>test csksksksskskskskskskskssksksksksksksksskskskskskskskskssksksk</p>
+    <section class="article">
+        <h2 id="czym-sie-zajmuje" class="article__header">Czym się zajmuję</h2>
+        <ul class="article__list">
+            <li class="article__listItem">Projektowanie zorientowane na użytkownika <i>(Human Centered Design)</i></li>
+            <li class="article__listItem">Projektowanie Usług</li>
+            <li class="article__listItem">UX writing - piszę, opiniuję, akceptuję komunikaty i treści do aplikacji
+                mobilnej</li>
+            <li class="article__listItem">Badania UX - jakościowe badania potrzeb, użyteczności, prototypów</li>
+            <li class="article__listItem">Design Thinking - korzystam z metody i szkolę z procesu</li>
+            <li class="article__listItem">Jestem konsultantką prostego języka <i>(plain language)</i> - szkolę z zasad,
+                opiniuję
+                i poprawiam
+                dokumenty.</li>
+        </ul>
+
+        <div class="container">
+            <table class="table">
+                <caption class="table__caption">Certyfikaty i szkolenia</caption>
+
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Lp.</th>
+                    <th class="tableCell tableHeader" scope="row">Nazwa szkolenia/certyfikatu</th>
+                    <th class="tableCell tableHeader" scope="row">Organizacja</th>
+                    <th class="tableCell tableHeader" scope="row">Rok</th>
+                </tr>
+                <tr class="tableRow">
+
+                    <th class="tableCell tableHeader" scope="row">1</th>
+                    <td class="tableCell">Kurs Front-end developer</td>
+                    <td class="tableCell">YouCode</td>
+                    <td class="tableCell">W trakcie :)</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">2</th>
+                    <td class="tableCell">Certyfikat Google Analytics dla zaawansowanychs</td>
+                    <td class="tableCell">Akademia Google Analytics</td>
+                    <td class="tableCell">2021</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">3</th>
+                    <td class="tableCell">Certyfikat Product Ownera</td>
+                    <td class="tableCell">Product Vission</td>
+                    <td class="tableCell">2021</td>
+                </tr>
+                <tr class="tableRow">
+
+                    <th class="tableCell tableHeader" scope="row">4</th>
+                    <td class="tableCell">Certyfikat konsultanta prostego języka</td>
+                    <td class="tableCell">Pracownia Prostej Polszczyzny</td>
+                    <td class="tableCell">2020</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" class="tableCell" scope="row">5</th>
+                    <td class="tableCell">PSM I</td>
+                    <td class="tableCell">Scrum.org</td>
+                    <td class="tableCell">2016</td>
+                </tr>
+            </table>
+        </div>
+        <p>
+            <button class="button js-buttonHide">Ukryj tabelę</button>
+        </p>
+
+        <h3 class="article__subheader">Języki obce</h3>
+        <ul class="article__list">
+            <li class="article__listItem">angielski - zaawansowany</li>
+            <li class="article__listItem">rosyjski - zaawansowany, ale już rzadko używany (licentat z filologii
+                rosyjskiej z
+                językiem
+                angielskim)</li>
+            <li class="article__listItem">włoski - średniozaawansowany</li>
+            <li class="article__listItem">hiszpański - podstawowy, z mocną motywacją do zdania certyfikatu przynajmniej
+                na
+                poziomie B2</li>
+        </ul>
+    </section>
+
+    <section class="article">
+        <h2 id="co-po-pracy" class="article__header">Co po pracy</h2>
+        <p class="article__paragraph">Uwielbiam podróże. Te duże (Kalifornia, Tajlandia, Wietnam, Jordania), citybreaki
+            (Wiedeń,
+            Londyn,
+            Paryż, Madryt,
+            Rzym) i mikrowyprawy (kolejne zakamarki w Warszawie, mniejsze i większe miejscowości w Polsce,
+            odkrywanie na
+            nowo rodzinnej Suwalszczyzny - pochodzę z Augustowa. </p>
+    </section>
+
+    <footer id="kontakt" class="footer">
+        <p> <b>Masz pytanie?</b><br>Napisz:<br>maszymborska@gmail.com</p>
+    </footer>
+</body>
+
+</html>

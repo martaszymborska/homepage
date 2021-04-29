@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     max-width: 1000px;
     margin: auto;
+    font-family: 'Inconsolata', monospace;
 }
 
 *, ::after, ::before {
@@ -10,7 +11,6 @@ html {
 
 .navigation {
     padding: 10px;
-    font-family: 'Inconsolata', monospace;
     margin: auto;
     text-align: center;
 }
@@ -47,7 +47,6 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
-    font-family: 'Prata', serif;
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 1px;
@@ -57,6 +56,7 @@ a:hover {
     background-color: #022d29;
     margin: 50px 50px;
     padding: 40px;
+    border-radius: 10px;
 }
 
 .article__header {
@@ -80,7 +80,6 @@ a:hover {
 }
 
 .article__listItem {
-    font-family: 'Inconsolata', monospace;
     line-height: 1.5;
     color: rgb(14, 12, 11);
 }
@@ -93,10 +92,10 @@ a:hover {
     max-width: 250px;
     padding: 2px;
     margin: auto;
+    border-radius: 20px;
 }
 
 .article__paragraph {
-    font-family: 'Inconsolata', monospace;
     line-height: 1.5;
     color: rgb(14, 12, 11);
 }
@@ -110,8 +109,6 @@ a:hover {
 
 .button {
     border: 1px solid rgb(0, 0, 0);
-    text-decoration: none;
-    text-transform: uppercase;
     background-color: #f5f2ef;
     padding: 10px 20px;
     margin-top: 40px;
@@ -119,9 +116,8 @@ a:hover {
     margin-left: 50px;
     display: inline-block;
     border-radius: 20px;
-    font-family: 'Inconsolata', monospace;
     font-size: 23px;
-    outline: none;
+    text-transform: uppercase;
 }
 
 .tableContainer {
@@ -141,7 +137,6 @@ a:hover {
     padding: 20px;
     text-align: center;
     vertical-align: middle;
-    font-family: 'Inconsolata', monospace;
     color: rgb(14, 12, 11);
 }
 
@@ -167,7 +162,6 @@ a:hover {
 
 .footer {
     text-align: center;
-    font-family: 'Inconsolata', monospace;
     line-height: 1.5;
     color: rgb(14, 12, 11);
 }

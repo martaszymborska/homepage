@@ -1,25 +1,25 @@
-let buttonChange = document.querySelector(".js-buttonChange");
-let buttonHide = document.querySelector(".js-buttonHide");
+let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+let hideTableButton = document.querySelector(".js-hideTableButton");
 let header = document.querySelector(".header");
 let table = document.querySelector("table");
 
 
 header.classList.add("newBackground");
 
-buttonChange.addEventListener("click", () => {
+changeBackgroundButton.addEventListener("click", () => {
     header.classList.toggle("newBackground")
         ();
 })
 
 
-buttonHide.addEventListener("click", () => {
+hideTableButton.addEventListener("click", () => {
     table.classList.toggle("hidden");
 
     if (table.classList.contains("hidden")) {
-        buttonHide.innerText = "Pokaż tabelę";
+        hideTableButton.innerText = "Pokaż tabelę";
     }
     else {
-        buttonHide.innerText = "Ukryj tabelę";
+        hideTableButton.innerText = "Ukryj tabelę";
 
     }
 

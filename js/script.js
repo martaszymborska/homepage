@@ -1,13 +1,13 @@
 let buttonChange = document.querySelector(".js-buttonChange");
 let buttonHide = document.querySelector(".js-buttonHide");
-let main = document.querySelector(".main");
+let header = document.querySelector(".header");
 let table = document.querySelector("table");
 
 
-main.classList.add("newBackground");
+header.classList.add("newBackground");
 
 buttonChange.addEventListener("click", () => {
-    main.classList.toggle("newBackground")
+    header.classList.toggle("newBackground")
         ();
 })
 

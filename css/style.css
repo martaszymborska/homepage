@@ -17,6 +17,9 @@ html {
 
 .navigation__list {
     list-style-type: none;
+    padding: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .navigation__item {
@@ -52,6 +55,8 @@ a:hover {
 
 .header {
     background-color: #022d29;
+    margin: 50px 50px;
+    padding: 40px;
 }
 
 .article__header {
@@ -63,11 +68,11 @@ a:hover {
 
 .header__header {
     font-family: 'Prata', serif;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: normal;
     color: #c1beb0;
-    margin-left: 50px;
-    margin-top: 10px;
+    padding: 10px;
+    margin: auto;
 }
 
 .article__list {
@@ -81,13 +86,13 @@ a:hover {
 }
 
 .newBackground {
-    background-color: darkmagenta;
+    background-color: #560556;
 }
 
 .header__image {
     max-width: 250px;
     padding: 2px;
-    margin-left: 50px;
+    margin: auto;
 }
 
 .article__paragraph {

@@ -1,21 +1,42 @@
-let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
-let hideTableButton = document.querySelector(".js-hideTableButton");
-let header = document.querySelector(".header");
-let table = document.querySelector("table");
 
+{
+    const hideTableButton = document.querySelector(".js-hideTableButton");
+    const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
 
-header.classList.add("newBackground");
-
-changeBackgroundButton.addEventListener("click", () => {
-    header.classList.toggle("newBackground")
-        ();
-})
-
+    const hideTable = () => {
+        const table = document.querySelector("table");
+        table.classList.toggle("hidden");
+        hideTableButton.innerText = table.classList.contains("hidden") ? "Pokaż tabelę" : "Ukryj tabelę";
+    };
 
 
 
-hideTableButton.addEventListener("click", () => {
-    table.classList.toggle("hidden");
+    const toggleBackground = () => {
 
-    hideTableButton.innerText = table.classList.contains("hidden") ? "Pokaż tabelę" : "Ukryj tabelę";
-});
+        const header = document.querySelector(".header");
+        header.classList.add("newBackground");
+        header.classList.toggle("newBackground");
+    };
+    
+    const init = () => {
+
+        hideTableButton.addEventListener("click", hideTable);
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+    }
+    init();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

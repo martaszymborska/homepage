@@ -12,15 +12,10 @@ changeBackgroundButton.addEventListener("click", () => {
 })
 
 
+
+
 hideTableButton.addEventListener("click", () => {
     table.classList.toggle("hidden");
 
-    if (table.classList.contains("hidden")) {
-        hideTableButton.innerText = "Pokaż tabelę";
-    }
-    else {
-        hideTableButton.innerText = "Ukryj tabelę";
-
-    }
-
+    hideTableButton.innerText = table.classList.contains("hidden") ? "Pokaż tabelę" : "Ukryj tabelę";
 });

@@ -1,0 +1,43 @@
+.tableContainer {
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(14, 12, 11);
+}
+
+.tableRow:hover {
+    background-color: #dee2e2;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(14, 12, 11);
+}
+
+.table__cell--header {
+    background-color: lightslategrey;
+    color: white;
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}

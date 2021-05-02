@@ -1,0 +1,30 @@
+.article {
+    color: #c4d4d3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.article__list {
+    color: rgb(14, 12, 11);
+}
+
+.article__listItem {
+    line-height: 1.5;
+    color: rgb(14, 12, 11);
+}
+
+.article__paragraph {
+    line-height: 1.5;
+    color: rgb(14, 12, 11);
+}
+
+.article__subheader {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(14, 12, 11);
+}

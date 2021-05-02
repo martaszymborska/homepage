@@ -1,0 +1,28 @@
+
+.navigation {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.navigation__item {
+    text-transform: uppercase;
+    outline: none;
+    line-height: 2;
+}
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
